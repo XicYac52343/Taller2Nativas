@@ -8,7 +8,7 @@
     >
 
     <TextView
-        android:id="@+id/tvNombreAPP"
+        android:id="@+id/tvNombreAPPSplash"
         android:layout_width="220dp"
         android:layout_height="86dp"
         android:fontFamily="@font/alexandria_semibold"
@@ -19,7 +19,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logoSplash" />
+        app:layout_constraintTop_toBottomOf="@+id/ivLogoSplash" />
 
     <TextView
         android:id="@+id/tvMiNombre"
@@ -35,7 +35,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
-        android:id="@+id/logoSplash"
+        android:id="@+id/ivLogoSplash"
         android:layout_width="293dp"
         android:layout_height="353dp"
         app:layout_constraintBottom_toBottomOf="parent"

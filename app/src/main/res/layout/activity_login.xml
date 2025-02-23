@@ -24,7 +24,7 @@
         app:layout_constraintVertical_bias="0.285" />
 
     <TextView
-        android:id="@+id/tvNoCuenta2"
+        android:id="@+id/tvNoCuentaRegis"
         android:layout_width="114dp"
         android:layout_height="38dp"
         android:fontFamily="@font/alexandria_light"
@@ -101,18 +101,18 @@
         app:layout_constraintTop_toBottomOf="@+id/tvTextoLogin" />
 
     <ImageView
-        android:id="@+id/im_contrasena"
+        android:id="@+id/iv_contrasena"
         android:layout_width="62dp"
         android:layout_height="60dp"
         android:layout_marginTop="40dp"
         app:layout_constraintEnd_toStartOf="@+id/et_contrasena"
         app:layout_constraintHorizontal_bias="0.607"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/im_correo"
+        app:layout_constraintTop_toBottomOf="@+id/iv_correo"
         app:srcCompat="@drawable/icono_contrasena" />
 
     <ImageView
-        android:id="@+id/im_correo"
+        android:id="@+id/iv_correo"
         android:layout_width="62dp"
         android:layout_height="60dp"
         android:layout_marginTop="104dp"

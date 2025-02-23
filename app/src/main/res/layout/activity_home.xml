@@ -39,7 +39,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvNombreAPPHome" />
 
     <TextView
-        android:id="@+id/tvTextoHome2"
+        android:id="@+id/tvRegistrate"
         android:layout_width="131dp"
         android:layout_height="36dp"
         android:fontFamily="@font/alexandria_light"
