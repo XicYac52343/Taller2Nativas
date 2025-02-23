@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GlimpSof</string>
+    <string name="user_name">Jeferson David Vega Romero</string>
+    <string name="registro">Regístrate</string>
+    <string name="comienza">Comienza</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="recuperarContrasena">Recupera tu contraseña</string>
+    <string name="textoHome">Inicia una nueva aventura con GlimpSof y descubre una nueva forma de ver el mundo</string>
+    <string name="textoLogin">La aventura está por iniciar, por favor inicia sesión</string>
+    <string name="ingresaGoogle">Ingresa con Google</string>
+    <string name="creaCuentaR">Regístrate</string>
+    <string name="creaCuenta">¿No tienes cuenta?,</string>
+
+</resources>

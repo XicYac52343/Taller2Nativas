@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aboreto</item>
+        <item>@font/acme</item>
+        <item>@font/adlam_display</item>
+        <item>@font/alata</item>
+        <item>@font/albert_sans</item>
+        <item>@font/alex_brush</item>
+        <item>@font/alexandria</item>
+        <item>@font/alexandria_light</item>
+        <item>@font/alexandria_semibold</item>
+        <item>@font/alkatra_semibold</item>
+        <item>@font/andika_new_basic_bold</item>
+        <item>@font/chivo</item>
+        <item>@font/francois_one</item>
+        <item>@font/pridi_extralight</item>
+        <item>@font/pridi_semibold</item>
+        <item>@font/pt_sans_narrow_bold</item>
+    </array>
+</resources>

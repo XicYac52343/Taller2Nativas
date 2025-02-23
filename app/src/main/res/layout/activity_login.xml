@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    >
+
+
+    <TextView
+        android:id="@+id/tvNoCuenta"
+        android:layout_width="217dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="40dp"
+        android:fontFamily="@font/alexandria_light"
+        android:text="@string/creaCuenta"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_ingoogle"
+        app:layout_constraintVertical_bias="0.285" />
+
+    <TextView
+        android:id="@+id/tvNoCuenta2"
+        android:layout_width="114dp"
+        android:layout_height="38dp"
+        android:fontFamily="@font/alexandria_light"
+        android:text="@string/creaCuentaR"
+        android:textAlignment="center"
+        android:textColor="@color/cian"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvNoCuenta"
+        app:layout_constraintTop_toBottomOf="@+id/bt_ingoogle"
+        app:layout_constraintVertical_bias="0.285" />
+
+    <TextView
+        android:id="@+id/tvTextoLogin"
+        android:layout_width="298dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/albert_sans"
+        android:text="@string/textoLogin"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivlogoLogin" />
+
+    <TextView
+        android:id="@+id/tvNombreAPPLogin"
+        android:layout_width="192dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/alexandria_semibold"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvTextoLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toEndOf="@+id/ivlogoLogin"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <TextView
+        android:id="@+id/tvRecuperarContra"
+        android:layout_width="372dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/alexandria_light"
+        android:text="@string/recuperarContrasena"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_ingresar" />
+
+    <EditText
+        android:id="@+id/et_correo"
+        style="@style/EditTextRounded"
+        android:layout_width="278dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="36dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="text"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTextoLogin" />
+
+    <ImageView
+        android:id="@+id/im_contrasena"
+        android:layout_width="62dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toStartOf="@+id/et_contrasena"
+        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im_correo"
+        app:srcCompat="@drawable/icono_contrasena" />
+
+    <ImageView
+        android:id="@+id/im_correo"
+        android:layout_width="62dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="104dp"
+        app:layout_constraintEnd_toStartOf="@+id/et_correo"
+        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivlogoLogin"
+        app:srcCompat="@drawable/icono_correo" />
+
+    <EditText
+        android:id="@+id/et_contrasena"
+        style="@style/EditTextRounded"
+        android:layout_width="278dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="36dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="text"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_correo" />
+
+    <ImageView
+        android:id="@+id/ivlogoLogin"
+        android:layout_width="122dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/bt_ingoogle"
+        style="@style/ButtonRounded"
+        android:layout_width="348dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/pt_sans_narrow_bold"
+        android:letterSpacing="0.05"
+        android:lineSpacingExtra="60sp"
+        android:text="@string/ingresaGoogle"
+        android:textColor="@color/black"
+        android:textSize="33sp"
+        app:backgroundTint="@null"
+        app:icon="@drawable/logo_google"
+        app:iconSize="35dp"
+        app:iconTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRecuperarContra"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bt_ingresar"
+        style="@style/ButtonRoundedOG"
+        android:layout_width="295dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/pridi_semibold"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/ingresar"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_contrasena" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    >
+
+    <Button
+        android:id="@+id/bt_comenzar"
+        style="@style/ButtonRoundedOG"
+        android:layout_width="295dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/pridi_semibold"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/comienza"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTextoHome" />
+
+    <TextView
+        android:id="@+id/tvTextoHome"
+        android:layout_width="371dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/alexandria_light"
+        android:text="@string/textoHome"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNombreAPPHome" />
+
+    <TextView
+        android:id="@+id/tvTextoHome2"
+        android:layout_width="131dp"
+        android:layout_height="36dp"
+        android:fontFamily="@font/alexandria_light"
+        android:text="@string/registro"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_comenzar"
+        app:layout_constraintVertical_bias="0.367" />
+
+    <TextView
+        android:id="@+id/tvNombreAPPHome"
+        android:layout_width="222dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/alexandria_semibold"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="44sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogoHome" />
+
+    <ImageView
+        android:id="@+id/ivLogoHome"
+        android:layout_width="254dp"
+        android:layout_height="236dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
