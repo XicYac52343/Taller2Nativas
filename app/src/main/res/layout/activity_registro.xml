@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@color/pink">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/ivlogoRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo" />
+
+
+        <TextView
+            android:id="@+id/tvNombreAPPRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/alexandria_semibold"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/tvIntruccion"
+            android:layout_width="281dp"
+            android:layout_height="65dp"
+            android:fontFamily="@font/alexandria_light"
+            android:text="@string/instruccionRegistro"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/et_nombreRegistro"
+            style="@style/EditTextRounded"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="@string/nombresRegistro"
+            android:inputType="text"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_apellidoRegistro"
+            style="@style/EditTextRounded"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="@string/apellidoRegistro"
+            android:inputType="text"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_correoRegistro"
+            style="@style/EditTextRounded"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="@string/correoRegistro"
+            android:inputType="text|textWebEmailAddress"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_telefonoRegistro"
+            style="@style/EditTextRounded"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="@string/telefonoRegistro"
+            android:inputType="text"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_contrasenaRegistro"
+            style="@style/EditTextRounded"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="@string/contrasenaRegistro"
+            android:inputType="text|textPassword"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_rpContrasenaRegistro"
+            style="@style/EditTextRounded"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="@string/rpContrasenaRegistro"
+            android:inputType="text|textPassword"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/cb_terminosCondiciones"
+            style="@style/Widget.Material3.CompoundButton.CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:checked="false"
+            android:clickable="true"
+            android:focusable="auto"
+            android:fontFamily="@font/alexandria_light"
+            android:text="@string/terminosycondiciones"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_registrateRegis"
+            style="@style/ButtonRoundedOG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pridi_semibold"
+            android:lineSpacingExtra="0sp"
+            android:text="@string/registro"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:backgroundTint="@null" />
+
+        <TextView
+            android:id="@+id/tvInicioSesion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/alexandria_light"
+            android:text="@string/iniciaSesionRegistro"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tvIniciaSesionRegis"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-8dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/alexandria_semibold"
+            android:text="@string/iniciaSesionRegistroIni"
+            android:textAlignment="center"
+            android:textColor="@color/cian"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvNoCuenta"
+            app:layout_constraintTop_toBottomOf="@+id/bt_ingoogle"
+            app:layout_constraintVertical_bias="0.285" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

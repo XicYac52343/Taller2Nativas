@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <ImageView
+            android:id="@+id/iv_fotoPerfil"
+            android:layout_width="243dp"
+            android:layout_marginTop="8dp"
+            android:layout_height="237dp"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/photo_profile" />
+
+        <TextView
+            android:id="@+id/tv_Bienvenida"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/alexandria_semibold"
+            android:text="@string/bienvenida"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/tv_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/alexandria_semibold"
+            android:text="@string/nombre"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/tv_nombreUser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/alexandria_light"
+            android:text="@string/apellido"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tv_apellido"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/alexandria_semibold"
+            android:text="@string/apellido"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/tv_apellidoUser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/alexandria_light"
+            android:text="@string/apellido"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tv_correo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/alexandria_semibold"
+            android:text="@string/correo"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/tv_correoUser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/alexandria_light"
+            android:text="@string/apellido"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tv_telefono"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/alexandria_semibold"
+            android:text="@string/telefono"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/tv_numeroUser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/alexandria_light"
+            android:text="@string/apellido"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/bt_EditarInfo"
+            style="@style/ButtonRoundedOG"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/pridi_semibold"
+            android:lineSpacingExtra="0sp"
+            android:text="@string/editar"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:backgroundTint="@null" />
+
+    </LinearLayout>
+</ScrollView>
