@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/pink"
+    android:background="@color/azul"
     >
 
     <LinearLayout
@@ -24,7 +24,7 @@
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/logo" />
+            app:srcCompat="@drawable/logo1" />
 
         <TextView
             android:id="@+id/tvNombreAPPHome"
@@ -45,12 +45,12 @@
             android:id="@+id/tvTextoHome"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="40dp"
             android:layout_marginTop="44dp"
+            android:layout_marginBottom="40dp"
             android:fontFamily="@font/alexandria_light"
             android:text="@string/textoHome"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="22sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -66,7 +66,7 @@
             android:lineSpacingExtra="0sp"
             android:text="@string/comienza"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="@color/rojo"
             android:textSize="40sp"
             app:backgroundTint="@null"
             app:layout_constraintEnd_toEndOf="parent"
@@ -80,7 +80,7 @@
             android:fontFamily="@font/alexandria_semibold"
             android:text="@string/registro"
             android:textAlignment="center"
-            android:textColor="@color/cian"
+            android:textColor="@color/white"
             android:textSize="30sp"
             android:layout_margin="20dp"
             app:layout_constraintBottom_toBottomOf="parent"

@@ -33,6 +33,16 @@
     <string name="instruccionRecuperarContra">Por favor, ingresa el correo electrónico al que deseas recibir el enlace de recuperación de contraseña.</string>
     <string name="btEnviarCorreo">Enviar Enlace</string>
     <string name="iniciaSesionRCPass">¿Te acuerdas de tú contraseña?</string>
+    <string name="botonActivityParcial">Activity Parcial</string>
+    <string name="tituloCapacidad">Capacidad de Endeudamiento</string>
+    <string name="ingresosMensuales">Ingresos mensuales netos</string>
+    <string name="gastosFijos">Gastos fijos mensuales</string>
+    <string name="deudasActuales">Deudas Actuales</string>
+    <string name="plazoCredito">Plazo deseado crédito (meses)</string>
+    <string name="botonValidar">Validar</string>
+    <string name="capacidadPagoTitulo">Capacidad Pago mensual</string>
+    <string name="montoMaximoTitulo">Monto máximo recomendado</string>
+    <string name="cuotaTitulo">Valor cuota</string>
 
     <string name="large_text">
         "Material is the metaphor.\n\n"

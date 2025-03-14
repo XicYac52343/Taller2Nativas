@@ -39,6 +39,9 @@
         <activity android:name=".rcpasswordActivity"
             android:exported = "false">
         </activity>
+        <activity android:name=".centralActivity"
+            android:exported = "false">
+        </activity>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

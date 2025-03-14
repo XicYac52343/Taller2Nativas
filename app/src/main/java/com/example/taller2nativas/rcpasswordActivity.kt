@@ -74,7 +74,6 @@ class rcpasswordActivity : AppCompatActivity(){
 
     private fun compararEmail() : Boolean{
         val correo = sharedPreferences.getString("correo", "")
-
         val correoText = et_correoRcPass.text.toString().trim()
 
         if(correo == correoText){

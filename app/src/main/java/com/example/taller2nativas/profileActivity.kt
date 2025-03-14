@@ -1,9 +1,11 @@
 package com.example.taller2nativas
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
@@ -14,6 +16,7 @@ class profileActivity : AppCompatActivity(){
     private lateinit var tv_apellidoUser : TextView
     private lateinit var tv_correoUser : TextView
     private lateinit var tv_numeroUser: TextView
+    private lateinit var bt_activityCentral : Button
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(saveInstanceState : Bundle?){
@@ -28,11 +31,18 @@ class profileActivity : AppCompatActivity(){
         tv_apellidoUser = findViewById(R.id.tv_apellidoUser)
         tv_correoUser = findViewById(R.id.tv_correoUser)
         tv_numeroUser = findViewById(R.id.tv_numeroUser)
+        bt_activityCentral = findViewById(R.id.bt_activityCentral)
 
         tv_nombreUser.text = sharedPreferences.getString("nombre", "")
         tv_apellidoUser.text = sharedPreferences.getString("apellido", "")
         tv_correoUser.text = sharedPreferences.getString("correo", "")
         tv_numeroUser.text = sharedPreferences.getString("telefono", "")
+
+        bt_activityCentral.setOnClickListener{
+            val intent = Intent(this, centralActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 
     override fun onStart() {
